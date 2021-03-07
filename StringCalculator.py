@@ -1,6 +1,5 @@
 class StringCalculator:
-    @staticmethod
-    def add(calc_input):
+    def add(self, calc_input):
         if not calc_input:
             return 0
         else:
